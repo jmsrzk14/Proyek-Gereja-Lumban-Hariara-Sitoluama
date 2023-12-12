@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container:nth-child(1){
+    background: linear-gradient(180deg, rgba(1, 27, 255, 0.25) 47.05%, rgba(0, 26, 255, 0.00) 99.76%);
+    margin-left: 11%;
+    width: 100%;
+    height: 13em;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    transform: translate(-28%, -190%);
+    color: #fff;
+    text-shadow: 3px 2px 4px rgb(12, 10, 10);
+}
+.navbar-right{
+    transform: translateX(20%);
+}
+.navbar-right a{
+    font-size: 20px;
+    color: #fff;
+    transform: translate(100%, -370%);
+    position: absolute;
+}
+.navbar-nav li:nth-child(3) a{
+    margin-left: -40%;
+    width: 100%;
+}
+.navbar-nav li a:hover{
+    border-bottom: 3px solid rgb(226, 205, 43);
+    background: transparent;
+}
+.navbar-nav li{
+    transform: translateX(30%);
+}
+.navbar-nav li:nth-child(5) a{
+    transform: translate(80%, -370%);
+}
+footer{
+    background: linear-gradient(180deg, rgba(0, 26, 255, 0.00) 35.05%,  rgba(1, 27, 255, 0.25) 99.76%);
+    width: 100%;
+    height: 20em;
+    transform: translateY(200%);
+    position: absolute;
+}
+.footer{
+    transform: translate(3%, 600%);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -4%;
+}
+big{
+    font-size: 24px;
+}
+.text-center{
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+.text-footer{
+    transform: translateY(3.5em);
+    height: 5px;
+}
+.text{
+    transform: translate(71%, 280%);
+}
+.mt-5{
+    transform: translateY(-30%);
+}
+.mt-5 a{
+    color: black;
+}
+.thumbnail{
+    aspect-ratio: 2/4;
+    width: 80%;
+    margin: 10% 40%;
+    padding: 10% 5%;
+    text-align: justify;
+    border-radius: 2em;
+    background-color: rgba(0, 209, 255, 0.15);
+}
+.thumbnail img{
+    aspect-ratio: 2/1.5;
+    border-radius: 1em;
+}
+.row:nth-child(1) .thumbnail{
+    aspect-ratio: 2/4;
+    position: absolute;
+    left: 200%;
+}
+.row:nth-child(2) .thumbnail{
+    aspect-ratio: 2/4;
+    transform: translateX(4%);
+}
+:root{
+    --animate-delay: 0.8s;
+}

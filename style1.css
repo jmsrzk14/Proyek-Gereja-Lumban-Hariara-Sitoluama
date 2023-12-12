@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container:nth-child(1){
+    background: linear-gradient(180deg, rgba(1, 27, 255, 0.25) 47.05%, rgba(0, 26, 255, 0.00) 99.76%);
+    margin-left: 11%;
+    width: 100%;
+    height: 13em;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    transform: translate(-28%, -190%);
+    color: #fff;
+    text-shadow: 3px 2px 4px rgb(12, 10, 10);
+}
+.navbar-right{
+    transform: translateX(20%);
+}
+.navbar-right a{
+    font-size: 20px;
+    color: #fff;
+    transform: translate(100%, -370%);
+    position: absolute;
+}
+.navbar-nav li:nth-child(3) a{
+    margin-left: -40%;
+    width: 100%;
+}
+.navbar-nav li a:hover{
+    border-bottom: 3px solid rgb(226, 205, 43);
+    background: transparent;
+}
+.navbar-nav li{
+    transform: translateX(30%);
+}
+.navbar-nav li:nth-child(5) a{
+    transform: translate(80%, -370%);
+}
+footer{
+    background: linear-gradient(180deg, rgba(0, 26, 255, 0.00) 35.05%,  rgba(1, 27, 255, 0.25) 99.76%);
+    width: 100%;
+    height: 20em;
+    transform: translateY(200%);
+    position: absolute;
+}
+.footer{
+    transform: translate(3%, 600%);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -4%;
+}
+big{
+    font-size: 24px;
+}
+.text-center{
+    font-size: 60px;
+    margin-bottom: 3%;
+}
+.text-footer{
+    transform: translateY(3.5em);
+    height: 5px;
+}
+.text{
+    transform: translate(71%, 280%);
+}
+.mt-5{
+    transform: translateY(-30%);
+}
+.mt-5 a{
+    color: black;
+}
+h3{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    transform: translate(5%, -200%);
+}
+p:nth-child(3){
+    transform: translate(5%, -250%);
+    font-size: 25px;
+}
+p:nth-child(1){
+    transform: translate(8%, -25%);
+    text-justify: newspaper;
+    text-align: justify;
+}
+.col-md-6 > img:nth-child(1){
+    width: 60%;
+    height: 330px;
+    transform: translate(30%, -24%);
+}
+.col-md-6, .col-md-6:nth-child(7){
+    margin-bottom: 5%;
+}
+.col-md-6:nth-child(7) > p{
+    transform: translate(-20%, -26%);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.jabatan1{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.jabatan2, .jabatan3{
+    position: absolute;
+    top: 5%;
+    left: 34%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.data1, .data2, .data3{
+    width: 40em;
+    position: absolute;
+    top: 75%;
+    left: 6%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.data3{
+    left: 8%;
+}
+.profil1, .profil2, .profil3{
+    border: 2px solid #000000;
+    height: 40em;
+    width: 50em;
+    margin: 0px 5%;
+    border-radius: 5em;
+}
+.profil1 img, .profil2 img, .profil3 img{
+    width: 15em;
+    height: 15em;
+    float: left;
+    border-radius: 100%;
+    transform: translate(33%, 41%);
+}
+.profil2 img{
+    width: 18em;
+    height: 18em;
+    transform: translate(22%, 22%);
+}
+.profil3 img{
+    transform: translate(37%, 40%);
+}
+:root{
+    --animate-delay: 0.8s;
+}
+.fab{
+    font-size: 40px;
+    color: #000000;
+}
+label{
+    transform: translate(-85%, 1800%);
+}
+.fa-facebook{
+    transform: translate(-550%, 1050%);
+}
+.fa-instagram{
+    transform: translate(-150%, 935%);
+}
+.content .fa-youtube{
+    transform: translate(-50%, 935%);
+}
+.profil2 label{
+    transform: translate(-130%, 1930%);
+}
+.profil2 .fa-facebook{
+    transform: translate(-410%, 1000%);
+}
+.profil2 .fa-instagram{
+    transform: translate(-390%, 1000%);
+}
+.profil2 .fa-youtube{
+    transform: translate(-60%, 900%);
+}
+.contentg{
+    position: relative;
+    top: -5%;
+    left: 15%;
+}
+.contentg img{
+    aspect-ratio: 4/3;
+    margin-bottom: 4%;
+    margin-right: 5%;
+}
